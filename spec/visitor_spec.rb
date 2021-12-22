@@ -8,6 +8,7 @@ RSpec.describe Visitor do
     expect(subject.name).not_to be nil
   end
 
-  it "is expected to raise an error if visitors name is missing" do
-    expect()
+  it 'is expected to raise an error if visitors name is missing' do
+    expect(subject.name)
+  end
 end
